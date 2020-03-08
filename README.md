@@ -19,15 +19,11 @@ View repository and user information, control your notifications and even manage
 
 
 ## Wireframes
-<p align="center">
-  <img src = "http://i.imgur.com/HowF6aM.png"0>
-</p>
 
 
 
-<p align="center">
-  <img src = "http://i.imgur.com/IkSnFRL.png" width=700>
-</p>
+
+
 
 <p align="center">
   <img src = "http://i.imgur.com/0iorG20.png" width=700>
