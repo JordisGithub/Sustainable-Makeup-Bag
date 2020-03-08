@@ -44,6 +44,18 @@ A few of the things you can do with the sustainable Makeupbag web app:
 
 ## API data & details
 
-**Development Keys**: 
+** About the Makeup API
+* Protocol: The transport is HTTP. This API conforms to REST principals
+* API Endpoints: The endpoint for the current API version is:
+  http://makeup-api.herokuapp.com/api/v1/products.json
+* There is currently one API call: Search makeup products
+* Type: GET
+
+**Search Parameters**: 
+Search for products and filter them by brand, price, product category, tags and many more. 
+This API also provides visual representation of the all of JSON data that is available as well
+Take a look at the full list below!
+
+
 
 
