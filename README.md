@@ -1,5 +1,6 @@
 # Sustainable Makeup Bag
 
+!(imageAlt)[https://imgur.com/VjCYV6A]
 
 ## Table of Contents
 
@@ -14,7 +15,7 @@
 ## Introduction
 
 
-View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
+
 
 
 
@@ -43,6 +44,6 @@ A few of the things you can do with the sustainable Makeupbag web app:
 
 ## API data & details
 
-**Development Keys**: The `CLIENT_ID` and `CLIENT_SECRET` in `api/index.js` are for development purposes and do not represent the actual application keys. Feel free to use them or use a new set of keys by creating an [OAuth application](https://github.com/settings/applications/new) of your own. Set the "Authorization callback URL" to `gitpoint://welcome`.
+**Development Keys**: 
 
 
