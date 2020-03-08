@@ -1,5 +1,6 @@
 # Sustainable Makeup Bag
 <p align="center">
+  ![](makeupbanner.jpg)
   <img src = "https://imgur.com/CVGwxTn" width=350>
 </p>
 
