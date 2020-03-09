@@ -13,12 +13,13 @@
 
 
 ## Introduction
- 4 to 5 sentences summarizing the features, functions, and goals.
 
-explaining technologies used, approaches taken, a link to your live site, relevant instructions for viewers, and any unsolved problems
+Modern consumers have a growing global consciousness, and they care about social and environmental responsibility. As we become more ecologically aware, consumers demand natural, low-polluting products.
 
+Our app aims to illustrate we can re-create the looks we love with sustainable cosmetics. Pick your desired look and we will yield a digital makeupbag with all the products needed to slay the desired look.
 
-
+CSS grid will provide look for inspiration.
+Custom dearch option to search by various categories.
 
 ## Wireframes
 Mockups of your app on desktop, tablet, and mobile.
@@ -38,32 +39,31 @@ A few of the things you can do with the sustainable Makeupbag web app:
 * Search makeupbag options by brand 
 * Functionality in IOS , tablets & laptops
 
-Write out what your goals are for MVP, including the minimum, need-to-have features of your app.
 
-Functional Requirements
-Be built with HTML, CSS, and JavaScript.
-Use Axios to consume data from an external source, and render that data into the DOM.
-Use flexbox (display: flex) and/or CSS grid (display: grid).
-Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile).
-Host on Surge. (We will go over this together.)
+Developer Requirements
+* Built with HTML, CSS, and JavaScript.
+* Use Axios to consume data from an external source, and render that data into the DOM.
+* Use flexbox (display: flex) and/or CSS grid (display: grid) for makeup look options.
+* Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile).
+* Host on Surge.
 
 
 ## API data & details
 
 ** About the Makeup API
 * Protocol: The transport is HTTP. This API conforms to REST principals
-* API Endpoints: The endpoint for the current API version is:
-  http://makeup-api.herokuapp.com/api/v1/products.json
+* API Endpoints: The endpoint for the current API version is: http://makeup-api.herokuapp.com/api/v1/products.json
 * There is currently one API call: Search makeup products
 * Type: GET
 
 **Search Parameters**: 
 Search for products and filter them by brand, price, product category, tags and many more. 
-This API also provides visual representation of the all of JSON data that is available as well
-Take a look at the full list below!
+This API also provides visual representation of the all of JSON data that is available as well.
+
+Search parameters listed below!
 
 Parameter | Data Type | Description
-------------------------- | -------------------------- | --------------------------
+---------------------------------- | ----------------------------------- | -----------------------------------
 product_type | string | The type of makeup being searched for (ie. lipstick, eyeliner).
 product_category | string | Sub-category for each makeup-type. (ie. lip gloss is a category of lipstick).
 product_tags | string | Options each product could be tagged with. (ie. vegan).
@@ -76,8 +76,8 @@ rating_less_than | number | Will return a list of products with a rating less th
 
 ## Post-MVP
 
-Nice-to-have features that you would like to implement once your MVP is complete.
 * Quiz to recommend a custom makeup bag
+* Buying Guides
 * Parameter for Zero Waste Makeup Brands
 * Parameter for Natural & Organic Makeup
 * Add instructional videos
