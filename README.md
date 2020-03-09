@@ -1,6 +1,6 @@
 # Sustainable Makeup Bag
 
-![makeupbanner](https://github.com/JordisGithub/Sustainable-Makeup-Bag/blob/master/makeupbanner.jpeg)
+![makeupbanner](https://github.com/JordisGithub/Sustainable-Makeup-Bag/blob/master/images/makeupbanner.jpeg)
 
 ## Table of Contents
 
