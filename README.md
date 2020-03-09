@@ -1,6 +1,6 @@
 # Sustainable Makeup Bag
 
-!(imageAlt)[https://imgur.com/VjCYV6A]
+!(makeupbanner)[https://imgur.com/VjCYV6A]
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@
 
 
 <p align="center">
-  <img src = "http://i.imgur.com/0iorG20.png" width=700>
+  <img src = "https://imgur.com/ycAIocW" width=700>
 </p>
 
 ## Sustainable MakeupBag Webapp Features
@@ -56,6 +56,14 @@ Search for products and filter them by brand, price, product category, tags and 
 This API also provides visual representation of the all of JSON data that is available as well
 Take a look at the full list below!
 
-
-
+Parameter | Data Type | Description
+------------------------- | -------------------------- | --------------------------
+product_type | string | The type of makeup being searched for (ie. lipstick, eyeliner).
+product_category | string | Sub-category for each makeup-type. (ie. lip gloss is a category of lipstick).
+product_tags | string | Options each product could be tagged with. (ie. vegan).
+brand | string | Brand of the product. Will return all products for each brand.
+price_greater_than | number | Will return a list of products with price greater than indicated number (exclusive)
+price_less_than | number | Will return a list of products with price less than indicated number (exclusive)
+rating_greater_than | number | Will return a list of products with a rating more than indicated number (exclusive)
+rating_less_than | number | Will return a list of products with a rating less than indicated number (exclusive).
 
