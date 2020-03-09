@@ -25,7 +25,7 @@ Custom dearch option to search by various categories.
 Mockups of your app on desktop, tablet, and mobile.
 
 <p align="center">
-  <img src = "https://imgur.com/ycAIocW" width=700>
+  <img src = "https://whimsical.com/GHGxAHe8dxHueCYSpmCCPh#2Ux7TurymMyYSmtzR9Ve" width=700>
 </p>
 
 ## MVP Sustainable MakeupBag Webapp Features
