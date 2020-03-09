@@ -24,11 +24,11 @@ Custom dearch option to search by various categories.
 ## Wireframes
 Mockups of your app on desktop, tablet, and mobile.
 <p align="center">
-<img src = "https://github.com/JordisGithub/Sustainable-Makeup-Bag/blob/master/Phone%20Wireframe.png" width=300>
+<img src = "https://github.com/JordisGithub/Sustainable-Makeup-Bag/blob/master/images/Phone%20Wireframe.png" width=300>
 </p>
 
 <p align="center">
-  <img src = "https://github.com/JordisGithub/Sustainable-Makeup-Bag/blob/master/Sustainable%20Makeup%20Bag.png" width=300>
+  <img src = "https://github.com/JordisGithub/Sustainable-Makeup-Bag/blob/master/images/Sustainable%20Makeup%20Bag.png" width=300>
 </p>
 
 
