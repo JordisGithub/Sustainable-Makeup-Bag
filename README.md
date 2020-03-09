@@ -6,7 +6,8 @@
 
 - [Intro](#Introduction)
 - [Wireframes](#Wireframes)
-- [API](#API)
+- [Sustainable MakeupBag Features](#SustainableMakeupBagWebappFeatures)
+- [API data & details](#API)
 - [MVP](#MVP)
 - [Post-MVP](#Post-MVP)
 
@@ -67,3 +68,24 @@ price_less_than | number | Will return a list of products with price less than i
 rating_greater_than | number | Will return a list of products with a rating more than indicated number (exclusive)
 rating_less_than | number | Will return a list of products with a rating less than indicated number (exclusive).
 
+## MVP
+
+A few of the things you can do with the sustainable Makeupbag web app:
+
+* Choose needed beauty products to recreate our looks
+* Obtain a curated list of vegan and sustainable products
+* Easy to purchase online links to personalize your makeup bag 
+* Search makeupbag options by ocasion 
+* Search makeupbag options by brand 
+* Functionality in IOS , tablets & laptops
+
+## Post-MVP
+
+A few of the things you can do with the sustainable Makeupbag web app:
+
+* Choose needed beauty products to recreate our looks
+* Obtain a curated list of vegan and sustainable products
+* Easy to purchase online links to personalize your makeup bag 
+* Search makeupbag options by ocasion 
+* Search makeupbag options by brand 
+* Functionality in IOS , tablets & laptops
