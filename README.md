@@ -14,9 +14,9 @@
 
 ## Introduction
 
-Modern consumers have a growing global consciousness, and they care about social and environmental responsibility. As we become more ecologically aware, consumers demand natural, low-polluting products.
+Modern consumers have a growing global consciousness, and they care about social and environmental responsibility. As we become more ecologically aware, consumers demand natural, low-polluting beauty products.
 
-Our app aims to illustrate we can re-create the looks we love with sustainable cosmetics. Pick your desired look and we will yield a digital makeupbag with all the products needed to slay the desired look.
+My app aims to illustrate we can re-create the looks we love with sustainable cosmetics. Pick your desired look and we will yield a digital makeupbag with all the products needed to slay the desired look.
 
 CSS grid will provide look for inspiration.
 Custom dearch option to search by various categories.
