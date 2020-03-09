@@ -25,10 +25,12 @@ Custom dearch option to search by various categories.
 Mockups of your app on desktop, tablet, and mobile.
 
 <p align="center">
-  <img src = "https://whimsical.com/GHGxAHe8dxHueCYSpmCCPh#2Ux7TurymMyYSmtzR9Ve" width=700>
+  <img src = "https://github.com/JordisGithub/Sustainable-Makeup-Bag/blob/master/Sustainable%20Makeup%20Bag%20-%20Window.png" width=700>
 </p>
 
-<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/GHGxAHe8dxHueCYSpmCCPh#2Ux7TurymMyPf8SGbM9E"></iframe>
+
+
+
 
 ## MVP Sustainable MakeupBag Webapp Features
 
