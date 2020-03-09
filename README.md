@@ -14,18 +14,15 @@
 
 
 ## Introduction
+ 4 to 5 sentences summarizing the features, functions, and goals.
 
-
+explaining technologies used, approaches taken, a link to your live site, relevant instructions for viewers, and any unsolved problems
 
 
 
 
 ## Wireframes
-
-
-
-
-
+Mockups of your app on desktop, tablet, and mobile.
 
 <p align="center">
   <img src = "https://imgur.com/ycAIocW" width=700>
@@ -69,23 +66,20 @@ rating_greater_than | number | Will return a list of products with a rating more
 rating_less_than | number | Will return a list of products with a rating less than indicated number (exclusive).
 
 ## MVP
+Write out what your goals are for MVP, including the minimum, need-to-have features of your app.
 
-A few of the things you can do with the sustainable Makeupbag web app:
-
-* Choose needed beauty products to recreate our looks
-* Obtain a curated list of vegan and sustainable products
-* Easy to purchase online links to personalize your makeup bag 
-* Search makeupbag options by ocasion 
-* Search makeupbag options by brand 
-* Functionality in IOS , tablets & laptops
+Functional Requirements
+Be built with HTML, CSS, and JavaScript.
+Use Axios to consume data from an external source, and render that data into the DOM.
+Use flexbox (display: flex) and/or CSS grid (display: grid).
+Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile).
+Host on Surge. (We will go over this together.)
 
 ## Post-MVP
 
-A few of the things you can do with the sustainable Makeupbag web app:
+Write out what your goals are for post-MVP, including nice-to-have features that you would like to implement once your MVP is complete.
 
-* Choose needed beauty products to recreate our looks
-* Obtain a curated list of vegan and sustainable products
-* Easy to purchase online links to personalize your makeup bag 
-* Search makeupbag options by ocasion 
-* Search makeupbag options by brand 
-* Functionality in IOS , tablets & laptops
+* Look into localstorage so you can save data to the user's browser.
+* Add a second API.
+* Add creative use of event listeners and UI interactions, such as CSS animations and transitions.
+* Get input from a UX student on how to make your app have intuitive UI and design.
