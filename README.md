@@ -1,6 +1,6 @@
 # Sustainable Makeup Bag
 
-!(makeupbanner)[https://imgur.com/VjCYV6A]
+![makeupbanner](https://github.com/JordisGithub/Sustainable-Makeup-Bag/blob/master/makeupbanner.jpeg)
 
 ## Table of Contents
 
