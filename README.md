@@ -6,9 +6,8 @@
 
 - [Intro](#Introduction)
 - [Wireframes](#Wireframes)
-- [Sustainable MakeupBag Features](#SustainableMakeupBagWebappFeatures)
+- [MPV Sustainable MakeupBag Features](#SustainableMakeupBagWebappFeatures)
 - [API data & details](#API)
-- [MVP](#MVP)
 - [Post-MVP](#Post-MVP)
 
 
@@ -28,7 +27,7 @@ Mockups of your app on desktop, tablet, and mobile.
   <img src = "https://imgur.com/ycAIocW" width=700>
 </p>
 
-## Sustainable MakeupBag Webapp Features
+## MVP Sustainable MakeupBag Webapp Features
 
 A few of the things you can do with the sustainable Makeupbag web app:
 
@@ -38,6 +37,15 @@ A few of the things you can do with the sustainable Makeupbag web app:
 * Search makeupbag options by ocasion 
 * Search makeupbag options by brand 
 * Functionality in IOS , tablets & laptops
+
+Write out what your goals are for MVP, including the minimum, need-to-have features of your app.
+
+Functional Requirements
+Be built with HTML, CSS, and JavaScript.
+Use Axios to consume data from an external source, and render that data into the DOM.
+Use flexbox (display: flex) and/or CSS grid (display: grid).
+Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile).
+Host on Surge. (We will go over this together.)
 
 
 ## API data & details
@@ -65,15 +73,6 @@ price_less_than | number | Will return a list of products with price less than i
 rating_greater_than | number | Will return a list of products with a rating more than indicated number (exclusive)
 rating_less_than | number | Will return a list of products with a rating less than indicated number (exclusive).
 
-## MVP
-Write out what your goals are for MVP, including the minimum, need-to-have features of your app.
-
-Functional Requirements
-Be built with HTML, CSS, and JavaScript.
-Use Axios to consume data from an external source, and render that data into the DOM.
-Use flexbox (display: flex) and/or CSS grid (display: grid).
-Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile).
-Host on Surge. (We will go over this together.)
 
 ## Post-MVP
 
