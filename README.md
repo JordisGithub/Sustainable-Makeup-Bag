@@ -28,6 +28,8 @@ Mockups of your app on desktop, tablet, and mobile.
   <img src = "https://whimsical.com/GHGxAHe8dxHueCYSpmCCPh#2Ux7TurymMyYSmtzR9Ve" width=700>
 </p>
 
+<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/GHGxAHe8dxHueCYSpmCCPh#2Ux7TurymMyPf8SGbM9E"></iframe>
+
 ## MVP Sustainable MakeupBag Webapp Features
 
 A few of the things you can do with the sustainable Makeupbag web app:
