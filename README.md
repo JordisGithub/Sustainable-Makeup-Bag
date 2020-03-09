@@ -77,9 +77,11 @@ Host on Surge. (We will go over this together.)
 
 ## Post-MVP
 
-Write out what your goals are for post-MVP, including nice-to-have features that you would like to implement once your MVP is complete.
-
+Nice-to-have features that you would like to implement once your MVP is complete.
+* Quiz to recommend a custom makeup bag
+* Parameter for Zero Waste Makeup Brands
+* Parameter for Natural & Organic Makeup
+* Add instructional videos
 * Look into localstorage so you can save data to the user's browser.
-* Add a second API.
-* Add creative use of event listeners and UI interactions, such as CSS animations and transitions.
+* Add a second API for environemtally friendly tools like vegan makeup brusher
 * Get input from a UX student on how to make your app have intuitive UI and design.
