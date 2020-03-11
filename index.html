@@ -3,11 +3,358 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script defer src="script/script.js"></script>
+
+    <link rel="stylesheet" href="https://use.typekit.net/rch2tsd.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>Sustainable Makeup bag</title>
   </head>
   <body>
-    <button id="testButton">Click Me</button>
+    <header>
+      <div>
+        <a href="index.html">
+          <img
+            id="logo"
+            src="images/Sustainable Makeup Logo.jpg"
+            alt="Sustainable Makeup Bag Logo"
+          />
+        </a>
+        <!-- <a id="home-link" href="index.html">Home</a> -->
+      </div>
+      <nav>
+        <a href="#Lips">Pictures</a>
+        <a href="#Eyes">Videos</a>
+        <a href="#contact">Contact</a>
+        <a href="try.html">
+          <button>Customize Your Own Makeup Bag</button>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero-section">
+        <div id="hero-image-div">
+          <img
+            id="hero-image"
+            src="images/Home_Banner_Space.jpeg"
+            alt="Home_Page_Banner"
+          />
+        </div>
+
+        <div id="hero-text">
+          <h1>Sustainable Makeup Bag</h1>
+          <h2>Slay that look! But make it Sustainable</h2>
+          <p>
+            In modern marketing, the word “green” has become synonymous with
+            “organic” or “healthy.” When a consumer sees the phrase “green
+            cosmetics,” they will automatically make eco-friendly assumptions
+            about the product or company. But the field of green cosmetics still
+            needs clarification. Typically, the term is used to describe
+            products using environmentally-friendly formulations, production
+            practices or packaging methods. In the United States, the Federal
+            Trade Commission (FTC) has published guidelines to clarify what
+            green or natural means in marketing terms, though these guidelines
+            are still loosely defined. With respect to the cosmetics industry,
+            “green” and “sustainable” cosmetics are defined as cosmetic products
+            using natural ingredients produced from renewable raw materials.
+            Many companies use petrochemical ingredients derived from petrol, a
+            non-renewable and economically volatile resource. Bio-based
+            oleochemicals, on the other hand, derive from renewable plant and
+            bacteria sources and are the crux of the green cosmetics movement.
+          </p>
+          <p>
+            Cosmetics developers worldwide are doggedly pursuing these
+            oleochemicals, along with any potential sources for them. Some
+            examples of common sources include: Natural Oils: Palm and coconut
+            oils are often used to derive fatty alcohols, which are used as
+            chemical surfactants. Other oils include argan oil and avocado oil.
+            Glycerine, a derivative of palm oil, is a common byproduct.
+            Agricultural Plants: Soybeans, corn and other agricultural plants
+            are used throughout the cosmetic industry to produce oils and
+            alcohols. Green cosmetic emulsifiers, surfactants and biocatalysts
+            are derived using these plants, which can be cheaply and sustainably
+            sourced. Bacteria: One example of a renewable resource currently
+            under development is the Deinococcus bacteria, a bacterium studied
+            by Deinove in France for its chemical production properties. Deinove
+            has used the bacterium to create aromatic ingredients and pigments
+            for the cosmetic industry, representing a potential market value in
+            the hundreds of millions of dollars. Manufacturers split these raw
+            materials into oleochemicals at a processing plant. The fats or oils
+            are divided by hydrolysis, which uses water, or alcoholysis, which
+            uses alcohol.
+          </p>
+
+          <p>
+            By using natural, oleochemical sources, sustainable cosmetics avoid
+            many of the toxic elements found in popular brands. These chemicals
+            damage environmental and human health, and consumers should never
+            read them on a “green” label. BHA and BHT: BHA and BHT are synthetic
+            antioxidants used as preservatives, and they are most common in
+            lipsticks and moisturizing creams. The European Commission has
+            released evidence that BHA and BHT disrupt the endocrine system.
+            Coal tar dyes: On labels, coal tar dyes are listed as
+            p-phenylenediamine or colors titled “CI” and followed by a
+            five-digit number. These dyes are mixtures of petrochemicals, and
+            they have been linked to cancer in humans. Formaldehyde-releasing
+            preservatives: These preservatives are present in a wide range of
+            cosmetics, as well as in cleaning products such as toilet bowl
+            cleaners. As their name suggests, formaldehyde-releasing
+            preservatives continuously release small amounts of formaldehyde, a
+            known human carcinogen. Aluminum: Commonly used in antiperspirants,
+            aluminum enters the body through the underarm tissue and blocks
+            sweat ducts. However, it has also been linked to breast cancer,
+            Alzheimer’s disease and osteoporosis. Dibutyl phthalate (DBP): Often
+            found in nail products, DBP is a solvent for dyes. Considered toxic
+            to human reproduction, it enhances the ability of other chemicals to
+            cause genetic mutations. While Canada has banned DBP from all
+            children’s toys, no action has yet been taken against its presence
+            in cosmetics.
+          </p>
+          <a href="try.html">
+            <button>Search By Product Type</button>
+          </a>
+        </div>
+      </section>
+      <section id="pic-container">
+        <h2>Get the Looks</h2>
+        <div id="pic-gallery">
+          <!-- These are the Individual Looks -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Vegan_Babe"
+                  class="featured-looks"
+                  src="images/Vegan_Babe.jpeg"
+                  alt="Vegan_Babe"
+                />
+              </div>
+              <div id="Vegan_Babe_Back" class="flip-card-back">
+                <!-- <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Rose_All_Day"
+                  class="featured-looks"
+                  src="images/Rose_All_Day.jpeg"
+                  alt="Rose_All_Day"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Boss_B"
+                  class="featured-looks"
+                  src="images/Boss_B*tch.jpeg"
+                  alt="Boss_B"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Blue_Dreams"
+                  class="featured-looks"
+                  src="images/Blue_Dreams.jpeg"
+                  alt="Blue_Dreams"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Aqua_Vida"
+                  class="featured-looks"
+                  src="images/Aqua_Vida.jpeg"
+                  alt="Aqua_Vida"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Hollywood_Glam"
+                  class="featured-looks"
+                  src="images/Hollywood_Glam.jpeg"
+                  alt="Hollywood_Glam"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Glam_Kitten"
+                  class="featured-looks"
+                  src="images/Glam_Kitten.jpeg"
+                  alt="Glam_Kitten"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Exotic_Vibe"
+                  class="featured-looks"
+                  src="images/Exotic_Vibe.jpeg"
+                  alt="Exotic_Vibe"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Coachella_Babe"
+                  class="featured-looks"
+                  src="images/Coachella_Babe.jpeg"
+                  alt="Coachella_Babe"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Take_Me_To_Carnival"
+                  class="featured-looks"
+                  src="images/Take_Me_To_Carnival.jpeg"
+                  alt="Take_Me_To_Carnival"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Hollywood_Neutrals"
+                  class="featured-looks"
+                  src="images/Hollywood_Neutrals.jpeg"
+                  alt="Hollywood_Neutrals"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  id="Sunset_Encounters"
+                  class="featured-looks"
+                  src="images/Sunset_Encounters.jpeg"
+                  alt="Sunset_Encounters"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Look Name</h1>
+                <p>You'll need this makeup</p>
+                <p>You'll need this makeup</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- pics end here -->
+        </div>
+      </section>
+    </main>
   </body>
 </html>
+
+<!-- Test button for API -->
+<!-- <button id="testButton">Click Me</button> -->
+
+//Vegan Girl Back of Card Makeup Info // Mascara const veganGirlBack =
+document.querySelector("#Vegan_Babe_Back"); const getMascara = async () => { let
+respond = await axios.get(
+"https://makeup-api.herokuapp.com/api/v1/products.json?product_category=&product_type=mascara"
+); veganGirlBack.innerHTML = " "; let elem = document.createElement("section");
+elem.innerHTML = `
+<div class="veganBabeProducts">
+  <a href="${respond.data[87].product_link}"> ${respond.data[87].name}</a>
+</div>
+`; veganGirlBack.append(elem); }; getMascara(); //foundation
