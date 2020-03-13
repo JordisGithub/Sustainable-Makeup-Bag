@@ -1,20 +1,41 @@
 /* header section */
+head {
+  position: relative;
+}
+
 #logo {
   width: 100px;
   margin-right: 10px;
+  position: relative;
+  margin-top: 20px;
 }
 
-header {
-  height: 100px;
+#myHeader h1 {
+  width: 100px;
+  margin: 10px;
+  position: relative;
+}
+
+/* Style the header */
+.header {
+  padding: 0px 30px;
+  color: transparent;
+  position: relative;
+}
+
+/* Page content */
+/* .content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
   width: 100%;
-  display: flex;
 }
 
-header div {
-  display: flex;
-  width: 30%;
-  margin-left: 10%;
-  align-items: center;
+.sticky + .content {
+  padding-top: 102px;
 }
 
 nav {
@@ -23,29 +44,36 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-nav button {
-  background-color: transparent;
-  width: 120px;
-  height: 40px;
-  font-size: 0.75em;
-  border: 2px solid #b3258f;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+} */
 
 /*Hero Section*/
+/* 
+article {
+  padding: 0 40px;
+  position: relative;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+} */
 
-#hero-image {
-  width: 100%;
-  height: 300px;
+body {
+  background-color: white;
+  font-family: "ff-tisa-web-pro", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  padding: 1em;
 }
 
-#hero-image-div {
+#pic-container {
   align-content: center;
   width: 100vw;
+  position: relative;
+}
+
+.pic-heading {
+  margin: 40px;
 }
 
 /* Body Section */
@@ -56,7 +84,7 @@ nav button {
   grid-template-columns: 1fr 1fr 1fr;
   align-content: center;
   justify-items: center;
-  margin: 100px;
+  margin: 0 30px 10px 30px;
   padding: 100px;
   margin-top: 0px;
 }
@@ -81,6 +109,12 @@ nav button {
   transform: rotateY(180deg);
 }
 
+.flip-card-front img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
 .flip-card-front,
 .flip-card-back {
   position: absolute;
@@ -91,9 +125,21 @@ nav button {
 }
 
 .flip-card-back {
-  background-color: #b3258f;
+  background-color: #416f55;
   color: white;
   transform: rotateY(180deg);
+}
+
+.flip-card-back img {
+  height: 80px;
+  width: 80px;
+}
+
+.flip-card-front h2 {
+  top: 0px;
+  left: 0;
+  width: 100%;
+  position: relative;
 }
 
 #pic-section {
@@ -101,28 +147,27 @@ nav button {
   padding-top: 20px;
 }
 
-body .featured-looks {
-  max-width: 30%;
-  height: auto;
-}
-
 body {
   margin: 0;
   padding: 0;
+  position: relative;
+  font-family: "Lora", serif;
 }
 
-/* pic section */
-/* you may want to try using object-fit:cover; */
-/* #pic-gallery {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  background: linear-gradient(to right, white, lightblue);
-  padding-top: 20px;
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
 }
-#pic-section img {
-  width: 100px;
-  height: 200px;
-  object-fit: cover;
-  justify-self: center;
-  margin-bottom: 20px;
-} */
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
