@@ -2,6 +2,8 @@
 
 ![makeupbanner](https://github.com/JordisGithub/Sustainable-Makeup-Bag/blob/master/images/makeupbanner.jpeg)
 
+Demo: https://simplysustainablemakeup.com/
+
 ## Table of Contents
 
 - [Intro](#Introduction)
